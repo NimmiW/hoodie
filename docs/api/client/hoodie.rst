@@ -304,6 +304,28 @@ Events
 | ``connectionStatus:*`` | events, see connectionStatus events      |
 +------------------------+------------------------------------------+
 
+Testing
+-------
+
+Local setup
+
+:: 
+    
+    git clone https://github.com/hoodiehq/hoodie-client.git
+    cd hoodie-client
+    npm install
+
+Run all tests
+
+::
+
+    npm test
+
+Run test from one file only
+
+::
+
+    node tests/specs/id
 
 
 
