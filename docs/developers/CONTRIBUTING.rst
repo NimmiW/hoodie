@@ -279,11 +279,19 @@ Reviewing and merging changes locally
 ::
 
     git checkout master # or the main branch configured on github
-    git pull # get latest changes
-    git checkout feature-branch # replace name with your branch
+
+    # pull the latest changes from the repo
+    git pull
+
+    # replace the name with your branch
+    git checkout feature-branch 
+
+    # merge the changes
     git rebase master
     git checkout master
-    git merge feature-branch # replace name with your branch
+    git merge feature-branch 
+
+    # push the cahnges to the repo
     git push
 
 When merging PRs from forked repositories, we recommend you install the
