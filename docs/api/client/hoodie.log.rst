@@ -1,10 +1,5 @@
 hoodie.log
 ==========
 
-This is work in progress
-------------------------
-
-Please help us make this awesome <3
-
-For the time being, check out `hoodie-log’s
-README <https://github.com/hoodiehq/hoodie-log>`__.
+`hoodie-log` is a standalone JavaScript library for logging to the browser console. 
+If available, it takes advantage of `CSS-based styling of console log outputs <https://developer.mozilla.org/en-US/docs/Web/API/Console#Styling_console_output>`_.
