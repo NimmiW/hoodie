@@ -220,4 +220,5 @@ Run specific tests only
 
 ::
 
-    node tests/specs/debug.js # run .debug() unit tests
+    # run .debug() unit tests
+    node tests/specs/debug.js 
