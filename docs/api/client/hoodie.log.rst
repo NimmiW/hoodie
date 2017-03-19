@@ -102,7 +102,8 @@ Example
 log.level
 ---------
 
-One of debug, info, warn or error. debug is the lowest level, and everything will be logged to the console. error is the highest level and nothing but errors will be logged.
+One of ``debug``, ``info``, ``warn`` or ``error``. ``debug`` is the lowest level, and everything will be logged to the console. 
+``error`` is the highest level and nothing but errors will be logged.
 
 .. code::
 
@@ -124,7 +125,7 @@ Example
 log()
 -----
 
-Logs message to browser console. Accepts same arguments as console.log
+Logs message to browser console. Accepts same arguments as `console.log <https://developer.mozilla.org/en-US/docs/Web/API/Console/log>`_.
 
 .. code:: js
 
@@ -133,7 +134,7 @@ Logs message to browser console. Accepts same arguments as console.log
 log.debug()
 -----------
 
-Logs debug message to browser console if level is set to debug. Accepts same arguments as console.log
+Logs debug message to browser console if ``level`` is set to ``debug``. Accepts same arguments as `console.log <https://developer.mozilla.org/en-US/docs/Web/API/Console/log>`_.
 
 .. code:: js
 
@@ -142,7 +143,7 @@ Logs debug message to browser console if level is set to debug. Accepts same arg
 log.info()
 ----------
 
-Logs info message to browser console if level is set to debug or info Accepts same arguments as console.log
+Logs info message to browser console if ``level`` is set to ``debug`` or ``info`` Accepts same arguments as `console.log <https://developer.mozilla.org/en-US/docs/Web/API/Console/log>`_.
 
 .. code:: js
 
@@ -151,7 +152,7 @@ Logs info message to browser console if level is set to debug or info Accepts sa
 log.warn()
 ----------
 
-Logs warning to browser console unless level is set to error Accepts same arguments as console.log
+Logs warning to browser console unless ``level`` is set to ``error`` Accepts same arguments as `console.log <https://developer.mozilla.org/en-US/docs/Web/API/Console/log>`_.
 
 .. code:: js
 
@@ -160,7 +161,7 @@ Logs warning to browser console unless level is set to error Accepts same argume
 log.error()
 -----------
 
-Logs error message to browser console. Accepts same arguments as console.log
+Logs error message to browser console. Accepts same arguments as `console.log <https://developer.mozilla.org/en-US/docs/Web/API/Console/log>`_.
 
 .. code:: js
 
@@ -179,7 +180,7 @@ log.scoped()
 | ``prefix`` | String | Prefix for log messages | Yes      |
 +------------+--------+-------------------------+----------+
 
-Returns log API with extended prefix
+Returns ``log`` API with extended ``prefix``
 
 Example
 

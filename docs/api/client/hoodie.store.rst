@@ -281,3 +281,35 @@ Example
         alert(error)
     })
 
+Testing
+-------
+
+Local setup
+
+::
+
+    git clone https://github.com/hoodiehq/hoodie-store-client.git
+    cd hoodie-store-client
+    npm install
+
+In Node.js
+
+Run all tests and validate JavaScript Code Style using standard
+
+::
+    
+    npm test
+
+To run only the tests
+
+::
+
+    npm run test:node
+
+Run tests in browser
+
+::
+    
+    npm run test:browser:local
+    
+This will start a local server. All tests and coverage will be run at http://localhost:8080/__zuul
